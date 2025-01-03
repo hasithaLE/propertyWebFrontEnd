@@ -1,0 +1,59 @@
+/* General nav styling */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    padding: 0px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex; /* Horizontal layout */
+    gap: 20px; /* Space between items */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Styling the list inside the nav */
+  nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal layout */
+    justify-content: flex-start; /* Align links to the left */
+    gap: 20px; /* Space between items */
+  }
+  
+  /* Styling each list item */
+  nav ul li {
+    display: inline-block;
+  }
+  
+  /* Styling links */
+  nav ul li a {
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    color: white; /* White text */
+    padding: 10px 15px; /* Add padding for clickable area */
+    border: 2px solid transparent; /* Invisible border by default */
+    border-radius: 4px; /* Smooth corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  /* Hover effect */
+  nav ul li a:hover {
+    border: 2px solid white; /* Add white border on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background on hover */
+    color: white; /* Keep white text */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align links to the left */
+      gap: 10px; /* Adjust gap for smaller screens */
+    }
+  
+    nav ul li a {
+      padding: 10px 20px; /* Increase padding for larger clickable areas */
+    }
+  }
+  
