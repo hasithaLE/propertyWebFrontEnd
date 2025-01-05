@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "type": "Flat",
+    "price": 2000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "postcode": "NW3",
+    "dateAdded": "2023-12-01",
+    "images": ["https://asmitaindiarealty.com/wp-content/uploads/2023/04/flat-and-apartment.jpg"],
+    "shortDescription": "A lovely flat in Hampstead.",
+    "location": "Hampstead, NW3"
+  },
+  {
+    "id": 2,
+    "type": "House",
+    "price": 3000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "postcode": "NW4",
+    "dateAdded": "2023-12-15",
+    "images": ["https://www.housesales.lk/oc-content/uploads/1089/2233.jpg", "https://source.unsplash.com/300x200/?garden,house"],
+    "shortDescription": "A beautiful house in Finchley.",
+    "location": "Finchley, NW4"
+  },
+  {
+    "id": 3,
+    "type": "Flat",
+    "price": 2500,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "postcode": "NW2",
+    "dateAdded": "2024-01-01",
+    "images": ["https://mr1.homeflow-assets.co.uk/files/photo/image/43237/3929/652x/1.jpg"],
+    "shortDescription": "A modern flat near Golders Green.",
+    "location": "Golders Green, NW2"
+  },
+  {
+    "id": 4,
+    "type": "House",
+    "price": 4000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "postcode": "NW11",
+    "dateAdded": "2023-11-25",
+    "images": ["https://cdn2-property.estateapps.co.uk/files/property/386/image/a9252844-123d-49f4-8602-8d853e220144/13609681_DSC_0027.JPG", "https://source.unsplash.com/300x200/?garden,flowers"],
+    "shortDescription": "A spacious family home in Temple Fortune.",
+    "location": "Temple Fortune, NW11"
+  },
+  {
+    "id": 5,
+    "type": "Flat",
+    "price": 1800,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "postcode": "NW5",
+    "dateAdded": "2023-12-20",
+    "images": ["https://assets.savills.com/properties/GBGUREFAL240074L/FAL240074_11_l_lis.jpg", "https://source.unsplash.com/300x200/?diningroom,home"],
+    "shortDescription": "A cozy flat in Kentish Town.",
+    "location": "Kentish Town, NW5"
+  },
+  {
+    "id": 7,
+    "type": "House",
+    "price": 5000,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "postcode": "NW7",
+    "dateAdded": "2023-12-05",
+    "images": ["https://media.onthemarket.com/properties/16298530/1525030127/image-0-480x320.jpg", "https://source.unsplash.com/300x200/?garage,house"],
+    "shortDescription": "A luxurious house in Mill Hill.",
+    "location": "Mill Hill, NW7"
+  },
+  {
+    "id": 8,
+    "type": "Flat",
+    "price": 4900,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "postcode": "NW8",
+    "dateAdded": "2023-12-05",
+    "images": ["https://i.ytimg.com/vi/T7hm1X2TZzk/maxresdefault.jpg"],
+    "shortDescription": "A luxurious Flat in Mills.",
+    "location": "Mills, NW8"
+  }
+]

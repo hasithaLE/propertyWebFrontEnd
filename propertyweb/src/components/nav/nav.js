@@ -1,17 +1,13 @@
-import './nav.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Nav() {
-    return (
-        <>
-        <nav>
-            <h1>Property Web</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        </>
-    );
-}
+const Nav = () => {
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/favorite">About</Link>
+    </nav>
+  );
+};
 
 export default Nav;
